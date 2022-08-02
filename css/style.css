@@ -1,0 +1,109 @@
+body {
+    background-color: #173653;
+    color: linen;
+}
+
+#containern {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1d253b;
+    background-image: url(https://mcdn.wallpapersafari.com/medium/60/26/98EkFg.jpg);
+    background-size: cover;
+    opacity: 100%;
+    border-radius: 20px;
+    border: solid darkblue 5px;
+
+
+    /* width: 70rem;
+    height: 50rem; */
+
+}
+
+#nattaSnokDiv {
+    margin-top: 2rem;
+    font-size: xx-large;
+    width: 28rem;
+}
+
+#infoHit {
+    max-height: 50rem;
+    overflow: scroll;
+    /* border: solid 2px hotpink; */
+    background-color: rgba(0, 0, 0, 0.75);
+    max-width: 50rem;
+    border-bottom: 1px black solid;
+}
+
+a:visited {
+    color: rgb(169, 166, 219);
+}
+
+#letsSnokButton {
+    width: 4rem;
+    height: 4rem;
+    background-color: #04269a;
+    border-radius: 10px;
+    color: linen;
+}
+
+#clearButton {
+    margin-top: 3rem;
+    font-size: large;
+    width: 8rem;
+    height: 8rem;
+    background-color: rgba(8, 2, 92, 0.55);
+    border-radius: 10px;
+    color: linen;
+}
+
+#clearButton:hover {
+    background-color: #04185a;
+    border: solid 2px blue;
+    color: rgb(132, 132, 155);
+}
+
+#clearButton:active {
+    background-color: #020f38;
+    border: solid 2px rgb(5, 5, 189);
+    color: rgb(0, 0, 185);
+}
+
+#h1Snok {
+    width: 20rem;
+}
+
+#firstInfo{
+    text-shadow: 2px 2px black;
+}
+
+@media screen and (max-width: 1015px) {
+    #containern {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-right: 1%;
+        margin-left: 1%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #containern {
+        margin-top: 2rem;
+
+        border: solid hotpink 5px;
+    
+        /* filter: drop-shadow(10px 10px 4px #020307); */
+    
+    }
+    #nattaSnokDiv {
+        margin-top: 2rem;
+        font-size: xx-large;
+        width: 100%;
+    }
+    
+}

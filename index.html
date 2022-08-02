@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/index.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nattas Snoksida</title>
+</head>
+
+<body>
+    <div id="containern">
+
+        <h1 id="h1Snok">Nattas SNOK-sida</h1>
+
+        <br><br>
+        <div id="firstInfo">
+            <form>
+                Förnamn på den du ska snoka efter:
+                <input type="text" id="googleName" value="Nathalie">
+                <br>
+                Efternamn på den som skall stalkas:
+                <input type="text" id="lastName" value="Pettersson">
+                <br>
+                Adress, kommun eller ort:
+                <input type="text" id="googlePlace" value="Malmö">
+                <br>
+                Vilken sida vill du mest snoka på?
+                <select name="searchEngine" id="mySearchId">
+                    <option value="merinfo.se" style="background-color: lightblue">Merinfo.se</option>
+                    <option value="hitta.se">Hitta.se</option>
+                    <option value="eniro.se" style="background-color: lightblue">Eniro.se</option>
+                    <option value="mrkoll.se">Mrkoll.se</option>
+                    <option value="facebook.com" style="background-color: lightblue">Facebook.com</option>
+                    <option value="linkedin.com">Linkedin.com</option>
+                    <option value="twitter.com" style="background-color: lightblue">Twitter.com</option>
+                    <option value="lexbase.se">Lexbase.se</option>
+                    <option value="ratsit.se" style="background-color: lightblue">Ratsit.se</option>
+                    <option value="instagram.com">Instagram.com</option>
+                    <option value="birthday.se" style="background-color: lightblue">Birthday.se</option>
+                </select>
+                <button id="letsSnokButton">Lets Snok:</button>
+        </div>
+        </form>
+        <div id="nattaSnokDiv"></div>
+        <div id="infoHit"></div>
+    </div>
+
+
+</body>
+
+</html>
