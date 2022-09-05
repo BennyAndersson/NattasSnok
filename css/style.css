@@ -4,6 +4,7 @@ body {
 }
 
 #containern {
+    margin-top: 7rem;
     display: flex;
     position: absolute;
     top: 50%;
@@ -37,6 +38,9 @@ body {
     border-bottom: 1px black solid;
 }
 
+a{
+    color: rgb(139, 168, 230);
+}
 a:visited {
     color: rgb(169, 166, 219);
 }
@@ -92,18 +96,9 @@ a:visited {
 }
 
 @media screen and (max-width: 470px) {
-    #containern {
-        margin-top: 2rem;
-
-        border: solid hotpink 5px;
-    
-        /* filter: drop-shadow(10px 10px 4px #020307); */
-    
-    }
     #nattaSnokDiv {
         margin-top: 2rem;
         font-size: xx-large;
         width: 100%;
     }
-    
 }
